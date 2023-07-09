@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Adding custom font */
+@font-face {
+    font-family: cryptofr-font;
+    src: url("../ressources/MADE_TOMMY_Light.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: 'grava';
+    src: url('../ressources/grava-display-black.woff') format('woff')
+}
+
+/* Header landscape moving background */
+.moving-landscape {
+    height : 26em;
+    background-image: url('../ressources/landscape_background.png');
+
+    background-size: cover;
+    -webkit-animation: slidein 100s;
+    animation: slidein 100s;
+
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes slidein {
+    from {
+        background-position: top;
+        background-size: 3000px;
+    }
+
+    to {
+        background-position: -100px 0px;
+        background-size: 2750px;
+    }
+}
+
+@keyframes slidein {
+    from {
+        background-position: top;
+        background-size: 3000px;
+    }
+
+    to {
+        background-position: -100px 0px;
+        background-size: 2750px;
+    }
+
+}
+
+.grava-font {
+    font-family: grava;
+}
+
+.cryptofr-font {
+    font-family: cryptofr-font;
+}
+
+.top-left-title {
+    font-size: 2em;
+    font-weight: bold;
+}
