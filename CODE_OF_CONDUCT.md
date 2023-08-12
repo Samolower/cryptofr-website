@@ -17,4 +17,4 @@ Les éditeurs du projet ont le droit et la responsabilité de retirer, modifier 
 
 Ce Code de conduite s’applique à la fois dans le cadre du projet et dans le cadre public, lorsqu’une personne représente le projet ou la communauté.
 
-Des cas de conduite abusive, de harcèlement ou autre pratique inacceptable ayant cours sur Kubernetes peuvent être signalés en contactant le [comité pour le code de conduite de Kubernetes](https://git.k8s.io/community/committee-code-of-conduct) via l'adresse <conduct@kubernetes.io>.  Pour d'autres projets, bien vouloir contacter un responsable de projet CNCF ou notre médiateur, Mishi Choudhary à l'adresse <mishi@linux.com>. 
+Des cas de conduite abusive, de harcèlement ou autre pratique, contactez le staff [Crypto FR sur discord](https://discord.gg/crypto-fr) ou via une issue.
